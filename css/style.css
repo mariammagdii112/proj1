@@ -1,0 +1,739 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{  
+    font-family: 'varela round' , sans-serif;
+}
+.parent{
+    background-color:rgba(76, 115, 165, 0.575);
+     position: fixed;
+     top: 0;
+     width: 100%;
+     overflow: auto;
+     left: 0;
+     z-index: 1;
+}
+     
+ .icon1{
+   font-size: 35px; 
+   margin: 15px 0px;
+ }
+.img1{
+       width:60px; 
+       height: 60px;
+       margin-top:-5px;
+       border-radius: 50%;
+      }
+.ul-header{
+    list-style-type: none;
+    text-transform: capitalize ;
+   margin-top: 15px;
+   float: right;
+}
+.logo{
+    float:left;
+}
+.ul-header a{
+    text-decoration: none;
+    color: beige;
+}
+.ul-header li{
+    display: inline;
+  padding: 0px 16px;
+   margin-left: 10px;
+}
+
+/* /////////////////////////////////////////////////////// */
+.home{
+ background-image: url(../images/ghrhub-banner.jpg);
+ height:100vh;
+width: 100%;
+position: relative;
+background-size: cover;
+left: 0;
+background-attachment: fixed;
+
+}
+.home-overlay{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  
+  position:absolute
+
+}
+.home-content{
+ color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-transform: capitalize ;
+   font-size: 25px;
+   position: absolute;
+   text-align: center;
+}
+.home-content h1{
+text-transform: uppercase;
+}
+button{
+    width: 150px; height: 60px;
+  text-transform: capitalize;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.b{
+  border: none;
+}
+.b2{
+  background-color: rgb(36, 46, 189);
+  margin: 8px;
+  color:white; 
+  border: none;
+}
+button:hover{
+  background-color: rgba(82, 82, 82, 0.329);
+  
+}
+/* ////////////////////////////////// */
+ .content{
+  margin-top: 45px;
+ overflow: auto;
+ }
+.item-content{
+  padding: 50px 30px;
+  overflow: auto;
+}
+.items{
+  margin-left: 25px;
+} 
+.hov{
+  position: relative;
+}
+.hov::after{
+  content:"";
+  position: absolute;
+  width: 0;
+  height: 0;
+  top:0;
+  left: 0;
+  opacity: 0;
+  background-color: rgba(53, 46, 46, 0.829);
+  z-index: -1;
+}
+.hov:hover .total{
+  color:white;
+}
+.hov:hover::after{
+  opacity: 0.9;
+  transition: 1s;
+  width:100%;
+  height: 100%;
+} 
+
+.item-contener h1{
+      text-align: center;
+      color: black; 
+      height: 17px;
+   
+   
+}
+.item-contener2,.item-contener3,.item-contener4{
+     border: 1px solid rgb(41, 41, 41);
+    
+     float: left;
+     margin:30px;
+     width:350px ;
+     height: 270px;
+     text-align: center;
+     font-size: 20px;
+
+}
+
+.item-contener .MO{
+  width:50px;
+
+  border: 2px solid black;
+  background-color: black;
+  border-radius: 6px;
+  margin: 30 auto;
+}
+
+/* ///////////////////تالتتتتتت///////////////// */
+ .content2{
+  overflow: auto;
+  margin:0px 80px;
+ }
+.container3{
+  width:290px;
+  height: 270px;
+  text-align: center;
+  color: rgb(241, 237, 237);
+  float: left;
+  margin-left:80px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.img{
+  padding:0px 5px;
+}
+  .SB{
+  width:50px;
+  border:2px solid black;
+  border-radius: 8px;
+  margin: auto;
+}
+
+.content2 h1{ 
+  text-align: center;
+  padding-top: 10px;
+}
+
+.container3::after{
+  content:"";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top:0;
+  left: 0;
+  opacity: 0;
+  background-color: rgb(29, 29, 29);
+}
+
+.container3:hover::after{
+  opacity: .8;
+  transition: 2s;
+  width:100%;
+  height: 100%;
+  
+}
+ .container3 .itm{
+  position: absolute;
+  top: 60%;
+  left: 17%;
+  
+ }
+.sec3{
+  background-color: rgba(44, 78, 105, 0.459);
+  margin: 50px auto;
+}
+ .itm{ 
+ margin-top: -25px;
+ display: none;
+ }
+ .content2 .container3:hover .itm{
+    transition: 2s;
+    display: block;    
+    opacity: 1;
+    z-index: 1;
+    
+}
+.icon2{
+  background-color: rgba(37, 64, 119, 0.856);
+  color:white;
+  font-size: 25px; 
+}
+/* ///////////////////////////////// */
+.sec4{
+  height: 100%;
+}
+.contentheader{
+  padding: 20px;
+}
+
+.S4{
+  width:50px;
+  border:2px solid black;
+  border-radius: 8px;
+  margin:auto;
+}
+.titl{
+  text-align: center;
+  font-size: 39px;
+}
+.content3{
+  padding: 33px;
+  margin-top: -19px;
+ height: 24%;
+}
+.content7{
+  padding: 33px;
+  height: 30%;
+}
+.container4{
+  border: 2px solid;
+  width: 290px;
+  height: 160px;
+  float: left; 
+ margin-left:75px;
+ padding-top:33px;
+ margin-bottom: 20px;
+ padding-left: 30px;
+ position: relative;
+}
+.container4 .icon3{
+  font-size: 35px;
+  margin-left: -20px;
+  color: rgb(8, 21, 201);
+}
+.divo1{
+  width: 250px;
+  height: 90px;
+  margin-left: 30px;
+}
+.divo1 .tit1{
+  margin-top: -35px;
+}
+.ww1{
+  color: gray;
+}
+.container4::after{
+  content:"";
+  position: absolute;
+  width: 0;
+  height: 0;
+  top:0;
+  left: 0;
+  opacity: 0;
+  background-color: rgba(37, 37, 37, 0.555);
+  z-index: -1;
+ 
+}
+.container4:hover::after{
+  opacity: 0.6;
+  transition: 1s;
+  width:100%;
+  height: 100%;
+} 
+
+
+
+/* /////////////////////////////////////////// */
+.sec5{
+ 
+
+ height: 88vh;
+  background-color: rgba(74, 101, 133, 0.795);
+  
+}
+.DP{
+  border: 3px solid;
+  margin:10px;
+  width: 10%;
+  color: rgba(0, 0, 0, 0.925);
+ margin-top: 4px;
+  
+}
+.photo{
+ margin-left:54%;
+
+}
+.ico{
+  margin-top: 70px;
+  margin-left: 24px;
+}
+.name{
+  margin-top: -300px;
+  padding: 22px;
+}
+.phar{
+  padding: 20px;
+}
+
+.ph{
+   width: 40%;
+  margin-top: -360px;
+  margin-left: 70px;
+}
+
+.dott{
+  float: left ;
+margin-left: 7px;
+margin-top: 30px;
+
+}
+.inputs{
+  margin-left: 68%;
+}
+.icon4{
+  font-size: 20px;
+  padding: 13px;
+}
+.parag{
+  color: rgb(0, 0, 0);
+  padding: 2px;
+  display:inline;
+}
+/* /////////////////////////نهايه سكشن 5////////// */
+
+.sec6{
+ margin-top: 200px;
+  background-image: url(../images/Copia-.jpg);
+  height:450px; 
+  position: relative;
+  background-attachment: fixed;
+ background-size: cover;
+ 
+}
+.overlay1{
+  position: absolute;
+  top: 0;  height: 100%;
+  left: 0;  width: 100%;
+  background-color: rgba(0, 0, 0, 0.692);
+}
+.con{
+  margin: 240px 270px;
+}
+.iconns{
+ margin-top: -10px;
+}
+.icon5{
+  color: beige;
+  float: left;
+  margin-left:100px;
+}
+.icon6{
+color: rgb(50, 109, 219);
+font-size: 40px;
+padding: 9px;
+}
+/* ////////////////نهايه سكشن 6////////////////////// */
+
+
+.back{ height:100vh;
+   
+  background-color: rgba(205, 217, 255, 0.829);
+}
+.tt {color: black;
+  padding-top: 120px;
+  margin-left:42% ;
+}
+.p1{
+  padding: 30px;
+
+}
+.parent2{
+
+  margin-top: 60px;
+ position: relative;
+}
+.dv1{
+  width: 280px; height: 330px;
+  border:1px solid; color: gray;
+  text-align: center; 
+  float: left;
+  margin-left: 120px;
+position: relative;
+}
+.dv4{
+  width: 60px; height:4px;
+  background-color: rgb(0, 81, 255);
+  margin-left: 47%;
+  margin-top: -43px;
+}
+button{
+  width: 150px; height: 30px;
+  border:1px solid; color:rgb(31, 110, 255);
+background-color: white;
+font-size:15px ;  
+}
+.titl1{
+width:95px; height: 95px;
+  border-radius: 50%;
+  border: 1px solid rgb(10, 87, 230);
+  color: black;
+  font-size: 55px;
+  margin: auto;
+  padding: 10px;
+
+}
+.span{
+  font-size: 20px;
+}
+.dv1:after ,.dv2::after{
+  content:"";
+  position: absolute;
+  width: 100%;
+  height: 0;
+  top:0;
+ right: 0;
+  opacity: 0;
+  transition: 1s;
+ 
+  background-color: rgba(123, 123, 145, 0.699);
+}
+.dv1:hover::after{
+  opacity: .7;
+  transition: 1s;
+  width:100%;
+  height: 100%;
+
+}
+.dv1:hover .titl1{
+  color: rgb(0, 4, 255);
+  transition: 1s;
+}
+.dv1:hover .dvp{
+  color: rgb(0, 4, 255);
+}
+/* //////////////////////////////////////// */
+.sec8{
+  background-image: url(../images/1600738281654.jpeg);
+  height: 370px;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+
+}
+.ovrly{
+  background-color: rgba(0, 0, 0, 0.692);
+  height: 370px;
+
+}
+.pho{ border-radius: 100%;
+  width: 70px;
+  height: 70px;
+ margin-top: 160px;
+}
+.cont{
+  margin-left: 15%;
+   height: 50vh;
+   width: 30%;
+   text-align: center;
+   float: left;
+ }
+.name{
+ color: bisque;
+margin-top: 9px;
+padding: 0;
+}
+.wk{
+color: bisque;
+}
+.hope{
+  margin-left: 22px;
+  color: bisque;
+}
+/* /////////////////////////// اول 999////////////////////// */
+.sec9{
+  height:100vh;
+  overflow: auto;
+  margin-top: 150px;
+}
+.titl8{
+  text-align: center;
+  text-transform: capitalize;
+ margin-left: 23px;
+}
+.ttt{
+  width:50px;
+  border:2px solid black;
+  border-radius: 8px;
+  margin-left: 49%;
+  margin-top: 10px;
+  
+}
+.teamcontent{
+margin-left:230px;
+margin-top: 30px;
+
+ 
+}
+.teamitm{
+  border: 2px solid ;
+  width: 250px;
+  height: 300px;
+  float: left;
+  margin-left:40px ;
+  text-align: center;
+  position: relative;
+  background-color: rgba(139, 150, 163, 0.541);
+  
+}
+.teamimg{
+ margin-left: 4px;
+ margin-top: 15px;
+ position: relative;
+}
+ 
+.teamoverlay {
+  position: absolute;
+  visibility: hidden;
+  top:0;
+  right:0;
+  bottom: 0;
+  left: 0;
+  opacity: 0 ;
+  background-color:  rgba(57, 61, 75, 0.5) ;
+}
+
+.teamitm:hover .teamoverlay  {
+ opacity: 1;
+  visibility: visible;
+
+}
+.teamoverlay a{
+display: block;
+width: 29px;
+height: 33px;
+background-color: rgb(26, 56, 155);
+color: white;
+margin-left: 216px ;
+}
+.teamitm:after{
+  content:"";
+  position: absolute;
+  width: 100%;
+  height: 0;
+  top:0;
+ right: 0;
+  opacity: 0;
+  transition: 1s;
+  background-color: rgba(49, 49, 53, 0.637);
+}
+.teamitm:hover::after{
+  opacity: .7;
+  transition: 1s;
+  width:100%;
+  height: 100%;
+
+}
+.teamitm:hover .aa{
+  color:white;
+  transition: 1s;
+}
+.teamitm:hover .O{
+  color: rgb(0, 4, 255);
+}
+/* ////////////////////////////////////// */
+.sec10{
+  height: 100vh;
+ 
+}
+.tr{
+  text-align: center;
+  text-transform: capitalize;
+ margin-left: 23px;
+ margin-top: -60px;
+}
+.ee{
+  width:50px;
+  border:2px solid black;
+  border-radius: 8px;
+  margin-left: 49%;
+}
+.teamcontent2{
+  overflow: auto;
+  margin-left: 200px;
+  margin-top: 22px;
+}
+.teamitm2{
+width: 280px;
+height: 88%;
+float: left;
+margin-left: 30px;
+position: relative;
+}
+.mg{
+  margin-left: 16px;
+}
+.list{
+  margin-left: 20px;
+  overflow: auto;
+}
+.list li{
+  float: left;
+ margin-left: 7px;
+ list-style: none;
+ margin-top: 8px;
+}
+.ite{
+  color: gray;
+}
+.link{
+  text-decoration: none;
+}
+.teamitm2:after{
+content: "";
+opacity: 0;
+width: 100%;
+height: 0;
+top:0;
+left: 0;
+transition: 1s;
+background-color: rgba(112, 160, 248, 0.603);
+position: absolute;
+}
+.teamitm2:hover::after{
+  opacity: 1;
+  transition: 1s;
+  width: 100%;
+  height: 100%;
+}
+/* ///////////////////////////////////////////// */
+.thelast{
+  height: 40vh;
+  background-color: rgb(52, 50, 56);
+ 
+ 
+}
+.imm{
+  margin-left: 44%;
+
+}
+.image0{
+margin-top: 48px;
+}
+.last{
+ overflow:auto;
+ margin-left: 39% ;
+  list-style: none;
+ 
+}
+.last .icon9{
+margin: 2px;
+  background-color: rgb(121, 166, 218);
+  border-radius: 50%;
+  color: white;
+  width: 34px;
+  height: 30px;
+  text-align: center;
+  margin-top: 11px;
+padding:6px;
+ font-size: 25px;
+ position: relative;
+ z-index: 1;
+}
+.last a{
+  float: left;
+}
+.icon9::after{
+  content:"";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+ 
+  background-color: rgb(15, 30, 114);
+  border-radius: 50%;
+  z-index: -1;
+}
+.icon9:hover::after{
+  opacity: .8;
+  transition: 1s;
+  width:100% ;
+  height: 100%;
+}
+.end{
+  color: grey;
+  text-align: center;
+  margin-top: 14px;
+ font-size: 12px;
+}
